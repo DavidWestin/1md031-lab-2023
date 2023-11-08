@@ -2,60 +2,68 @@
 <html lang="en">
    <head>
        <title>Davids hamburgare</title>
-       <meta charset="utf-8"/>
+       <meta charset="utf-8"/> 
+       <link rel="stylesheet" type="text/css" href="style.css">
    </head>
    <body>
-    <header>
-        <h1>Davids feta Hamburgare</h1>
+    <header class= "title">
+        <h1> Davids feta Hamburgare </h1>
     </header>
- 
+
     <main>
+    <section> 
     <h2>Select your burger</h2>
-    <div style="display: inline-block;"> 
-    <section>   
+    </section>
+
+    <section id="blackwhite">
+    <div class="wrapper"> 
+    <div class="burger a">
+
+       
     <h4>Mumsiga burgaren</h4>
     <img src="https://s7d1.scene7.com/is/image/mcdonalds/mcd-sv-products-burgers-glutenfreehamburger-NEW:1-3-product-tile-desktop?wid=829&hei=515&dpr=off" alt="Span" title="Another in-line element" style="width: 300px;">
     <ul>
         <li>Micrad Högrev</li>
-        <li>Gluttenfritt bröd</li>
+        <li><span class="glutenfritt">Glutenfritt</span> bröd</li>
         <li>Diverse goda grönsaker</li>
     </ul>
     
-    </section>
+
     </div>  
 
-    <div style="display: inline-block;"> 
-        <section>   
+    <div class="burger b"> 
+           
         <h4>Mega Mumsiga Burgaren</h4>
         <img src="https://s7d1.scene7.com/is/image/mcdonalds/mcd-sv-products-burgers-glutenfreenbigmac-NEW:1-3-product-tile-desktop?wid=829&hei=515&dpr=off" alt="Span" title="Another in-line element" style="width: 300px;">
         <ul>
             <li>Blandfärs</li>
-            <li>Ej glutenfritt bröd</li>
+            <li>Ej <span class="glutenfritt">Glutenfritt</span> bröd</li>
             <li>Diverse goda grönsaker och bacon</li>
         </ul>
         
-        </section>
+
         </div>
         
-        <div style="display: inline-block;"> 
+        <div class="burger c"> 
 
-            <section>   
             <h4>Mega Mycket Mums på en Burgare</h4>
             <img src="https://s7d1.scene7.com/is/image/mcdonalds/mcd-sv-products-burgers-hamburger-NEW:1-3-product-tile-desktop?wid=829&hei=515&dpr=off" alt="Span" title="Another in-line element" style="width: 300px;">
             <ul>
                 <li>Typ som en donken cheeseburgare fast lite bättre</li>
-                <li>Ej glutenfritt bröd</li>
+                <li>Ej <span class="glutenfritt">Glutenfritt</span> bröd</li>
                 <li>OST!!!</li>
             </ul>
-            
-            </section>
-            </div> 
+         
+    </div>
+    </div> 
+    </section>
+    
 
     <section>
     <h2>Customer Information</h2>
-    </section>
+    
 
-    <section>    <h4>Dellivery Information </h4>
+       <h4>Dellivery Information </h4>
         <p>
             <label for="firstname">First</label><br>
             <input type="text" id="firstname" name="fn" required="required" placeholder="First name">
@@ -93,7 +101,7 @@
             <label for="None of the above">None of the above</label><br>
          </p>
 
-         <button type="submit">
+         <button type="submit" class="button">
             <img src="https://hips.hearstapps.com/hmg-prod/images/2024-ferrari-812-gts-101-64caae4038b21.jpeg?crop=0.526xw:0.701xh;0.137xw,0.299xh&resize=768:*" style="width: 70px;">
             Send my order ultra mega quick!
           </button>

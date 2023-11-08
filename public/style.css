@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large ;
+    font-style:oblique;
+ }
+
+ .glutenfritt {
+    font-weight: bold;
+}
+
+#blackwhite {
+    color: white;
+    background-color:black;
+}
+
+button:hover {
+    color: green;
+    cursor:pointer;
+}
+.button {
+    margin: 20px 0 20px 0; 
+}
+
+
+header {
+    background-image: url(https://oskarshamn.com/wp-content/uploads/2020/04/McDonalds-logga.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+}
+ /*header.title img {
+    opacity: 0.5;
+} */
+
+div {
+    margin-left: 70px;
+}
+section {
+    border: 5px inset rgb(44, 117, 22); 
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 20px;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 30% 30% 28%;
+    background-color: black;
+    color: green;
+}
+
