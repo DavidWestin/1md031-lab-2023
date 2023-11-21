@@ -8,7 +8,7 @@
     <p v-if = "burger.lactose">Laktos: Innehåller </p>
     <p v-if = "!burger.lactose">Laktos: Innehåller Ej</p>
 
-    <p>Antal: {{this.amountOrdered }}</p>
+    <p>Ant: {{this.amountOrdered }}</p>
     <div>
     <button id="decreaseButton" v-on:click="decreaseAmount"> - </button>
     <button id="increaseButton" v-on:click="increaseAmount"> + </button>
@@ -63,12 +63,16 @@
   </script>
   
   <!-- Add "scoped" attribute to limit CSS to this component only -->
- <style scoped>
- 
- </style>
+  <style scoped>
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large ;
+    font-style:oblique;
+ }
 
+ .glutenfritt {
+    font-weight: bold;
+}
 
-
-
-
+</style>
   
