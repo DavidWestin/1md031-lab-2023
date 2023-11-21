@@ -1,0 +1,25 @@
+[
+    {
+      "productName": "Mumsig Burgare",
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/mcd-sv-products-burgers-glutenfreehamburger-NEW:1-3-product-tile-desktop?wid=829&hei=515&dpr=off",
+      "kCal": 150,
+      "gluten": false,
+      "lactose": false
+    },
+    
+    {
+        "productName": "Mega Mumsiga Burgare",
+        "image": "https://s7d1.scene7.com/is/image/mcdonalds/mcd-sv-products-burgers-hamburger-NEW:1-3-product-tile-desktop?wid=829&hei=515&dpr=off",
+        "kCal": 200,
+        "gluten": true,
+        "lactose": true
+      },
+
+      {
+        "productName": "Mega Mycket Mums på Burgare",
+        "image": "https://s7d1.scene7.com/is/image/mcdonalds/mcd-sv-products-burgers-glutenfreenbigmac-NEW:1-3-product-tile-desktop?wid=829&hei=515&dpr=off",
+        "kCal": 600,
+        "gluten": true,
+        "lactose": true
+      }
+]

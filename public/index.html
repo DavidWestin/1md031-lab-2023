@@ -1,116 +1,17 @@
-<!DOCTYPE HTML>
-<html lang="en">
-   <head>
-       <title>Davids hamburgare</title>
-       <meta charset="utf-8"/> 
-       <link rel="stylesheet" type="text/css" href="style.css">
-   </head>
-   <body>
-    <header class= "title">
-        <h1> Davids feta Hamburgare </h1>
-    </header>
-
-    <main>
-    <section> 
-    <h2>Select your burger</h2>
-    </section>
-
-    <section id="blackwhite">
-    <div class="wrapper"> 
-    <div class="burger a">
-
-       
-    <h4>Mumsiga burgaren</h4>
-    <img src="https://s7d1.scene7.com/is/image/mcdonalds/mcd-sv-products-burgers-glutenfreehamburger-NEW:1-3-product-tile-desktop?wid=829&hei=515&dpr=off" alt="Span" title="Another in-line element" style="width: 300px;">
-    <ul>
-        <li>Micrad Högrev</li>
-        <li><span class="glutenfritt">Glutenfritt</span> bröd</li>
-        <li>Diverse goda grönsaker</li>
-    </ul>
-    
-
-    </div>  
-
-    <div class="burger b"> 
-           
-        <h4>Mega Mumsiga Burgaren</h4>
-        <img src="https://s7d1.scene7.com/is/image/mcdonalds/mcd-sv-products-burgers-glutenfreenbigmac-NEW:1-3-product-tile-desktop?wid=829&hei=515&dpr=off" alt="Span" title="Another in-line element" style="width: 300px;">
-        <ul>
-            <li>Blandfärs</li>
-            <li>Ej <span class="glutenfritt">Glutenfritt</span> bröd</li>
-            <li>Diverse goda grönsaker och bacon</li>
-        </ul>
-        
-
-        </div>
-        
-        <div class="burger c"> 
-
-            <h4>Mega Mycket Mums på en Burgare</h4>
-            <img src="https://s7d1.scene7.com/is/image/mcdonalds/mcd-sv-products-burgers-hamburger-NEW:1-3-product-tile-desktop?wid=829&hei=515&dpr=off" alt="Span" title="Another in-line element" style="width: 300px;">
-            <ul>
-                <li>Typ som en donken cheeseburgare fast lite bättre</li>
-                <li>Ej <span class="glutenfritt">Glutenfritt</span> bröd</li>
-                <li>OST!!!</li>
-            </ul>
-         
-    </div>
-    </div> 
-    </section>
-    
-
-    <section>
-    <h2>Customer Information</h2>
-    
-
-       <h4>Dellivery Information </h4>
-        <p>
-            <label for="firstname">First</label><br>
-            <input type="text" id="firstname" name="fn" required="required" placeholder="First name">
-        </p>
-        <p>
-            <label for="lastname">Last</label><br>
-            <input type="text" id="lastname" name="ln" placeholder="Last name">
-        </p>
-        <p>
-            <label for="Email">Email</label><br>
-            <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
-        </p>
-        <p>
-            <label for="House Adress">House Adress</label><br>
-            <input type="House Adress" id="House Adress" name="ha" required="required" placeholder="House Adress">
-        </p>
-        <p>
-            <label for="Payment Methods">Payment Methods</label><be>
-            <select id="Payment Methods" name="Payment">
-                <option>Kontant</option checked>
-                <option>Swisch</option>
-                <option>Helst inte kort</option>
-            </select>
-         </p>
-         <p>
-            <label for="Gender">Gender:</label><br>
-
-            <input type="radio" id="Male" name="Gender" value="Male" checked>
-            <label for="Male">Male</label><br>
-    
-            <input type="radio" id="Female" name="Gender" value="Female">
-            <label for="Female">Female</label><br>
-    
-            <input type="radio" id="None of the above" name="Gender" value="None of the above">
-            <label for="None of the above">None of the above</label><br>
-         </p>
-
-         <button type="submit" class="button">
-            <img src="https://hips.hearstapps.com/hmg-prod/images/2024-ferrari-812-gts-101-64caae4038b21.jpeg?crop=0.526xw:0.701xh;0.137xw,0.299xh&resize=768:*" style="width: 70px;">
-            Send my order ultra mega quick!
-          </button>
-    </section>
-
-    </main>
-
-    <hr>
-    <footer>Copy Right: Davids Feta hamburgare AB</footer>
-</body>
-
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
 </html>

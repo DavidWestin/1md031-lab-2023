@@ -2,7 +2,20 @@
     <div id="orders">
       <div id="orderList">
         <div v-for="(order, key) in orders" v-bind:key="'order'+key">
-          #{{ key }}: {{ order.orderItems.join(", ") }}
+          #{{ key }}: <!---{{ order.orderItems.join(", ") }}-->
+          <ul>
+          <li v-for="(item, itemKey) in order.orderItems" :key="itemKey">
+            {{ itemKey }}: {{ item }}
+          </li>
+          </ul>
+
+          <ul>
+          <li v-for="(item,itemKey) in order.customerDetails" :key="itemKey">
+            {{ itemKey }}: {{ item }}
+          </li>
+          </ul>
+
+
         </div>
         <button v-on:click="clearQueue">Clear Queue</button>
       </div>
@@ -38,12 +51,13 @@
   <style>
   #orderList {
     top:1em;
-    left:1em;
+    left:4em;
     position: absolute;
     z-index: 2;
-    color:black;
-    background: rgba(255,255,255, 0.5);
+    color:rgb(185, 25, 25);
+    background: rgba(255, 255, 255, 0.815);
     padding: 1em;
+    overflow: scroll;
   }
   #dots {
     position: relative;
